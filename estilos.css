@@ -112,16 +112,6 @@
   height: auto;
 }
 
-@media (max-width: 600px) {
-
-  .ovalado {
-    margin-top: 10px;
-    width: 100%;
-    flex-direction: column; /* los enlaces en columna */
-    gap: 10px;
-  }
-}
-
 body {
     font-family: quango, sans-serif;
     line-height: 1.6;
