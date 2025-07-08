@@ -112,6 +112,20 @@
   height: auto;
 }
 
+@media (max-width: 600px) {
+  .header-container {
+    flex-direction: column; /* apila los elementos verticalmente */
+    align-items: flex-start; /* alinear a la izquierda */
+  }
+
+  .ovalado {
+    margin-top: 10px;
+    width: 100%;
+    flex-direction: column; /* los enlaces en columna */
+    gap: 10px;
+  }
+}
+
 /* Media query para pantallas pequeñas */
 @media (max-width: 600px) {
 
