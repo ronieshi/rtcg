@@ -123,15 +123,6 @@
 /* Media query para pantallas pequeñas */
 @media (max-width: 600px) {
 
-  /* Mostrar botón hamburguesa */
-  .menu-toggle {
-    display: block;
-    background: none;
-    border: none;
-    font-size: 28px; /* tamaño del icono */
-    padding: 5px;
-    z-index: 1000; /* por si hay superposiciones */
-  }
 
   /* Ocultar el menú por defecto en móviles */
   .ovalado {
@@ -150,7 +141,7 @@
     /* width:100%; left:auto; right:auto; top:auto; bottom:auto; */
 }
 
-.menu.show {
+.ovalado.show {
    max-height:200px; /* ajusta según cantidad de enlaces */
 }
 
