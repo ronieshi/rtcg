@@ -112,14 +112,6 @@
   height: auto;
 }
 
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-}
-
 /* Media query para pantallas pequeñas */
 @media (max-width: 600px) {
 
@@ -139,10 +131,6 @@
 
     /* Opcional para que ocupe toda la pantalla en ancho completo */
     /* width:100%; left:auto; right:auto; top:auto; bottom:auto; */
-}
-
-.ovalado.show {
-   max-height:200px; /* ajusta según cantidad de enlaces */
 }
 
 
