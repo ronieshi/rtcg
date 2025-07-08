@@ -20,6 +20,10 @@
 }
 
 @media (max-width: 600px) {
+    nav, ul, li {
+    flex-direction: column; /* apila los elementos verticalmente */
+    align-items: flex-start; /* alinear a la izquierda */
+    }
   .header-container {
     flex-direction: column; /* apila los elementos verticalmente */
     align-items: flex-start; /* alinear a la izquierda */
