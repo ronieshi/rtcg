@@ -19,6 +19,7 @@
   }
 }
 
+@media (max-width: 600px){
 
 .imagenrule {
   max-width: 400px;   /* tamaño máximo deseado */
@@ -92,6 +93,8 @@
 .imagencarta {
   width: 200px; /* ajusta tamaño de la carta */
   height: auto;
+}
+
 }
 
 
