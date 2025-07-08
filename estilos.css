@@ -19,7 +19,19 @@
   }
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
+  .header-container {
+    flex-direction: column; /* apila los elementos verticalmente */
+    align-items: flex-start; /* alinear a la izquierda */
+  }
+
+  .ovalado {
+    margin-top: 10px;
+    width: 100%;
+    flex-direction: column; /* los enlaces en columna */
+    gap: 10px;
+  }
+}
 
 .imagenrule {
   max-width: 400px;   /* tamaño máximo deseado */
@@ -93,8 +105,6 @@
 .imagencarta {
   width: 200px; /* ajusta tamaño de la carta */
   height: auto;
-}
-
 }
 
 
