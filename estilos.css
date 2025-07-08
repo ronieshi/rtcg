@@ -150,7 +150,7 @@
     /* width:100%; left:auto; right:auto; top:auto; bottom:auto; */
 }
 
-.ovalado.show {
+.menu.show {
    max-height:200px; /* ajusta según cantidad de enlaces */
 }
 
